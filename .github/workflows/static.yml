@@ -32,7 +32,7 @@ jobs:
       - name: Validate HTML
         run: |
           pip install html5validator
-          html5validator --root ./
+          html5validator --root index.html
       - name: Checkout
         uses: actions/checkout@v4
       - name: Setup Pages
